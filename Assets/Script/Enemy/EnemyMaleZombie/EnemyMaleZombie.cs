@@ -36,7 +36,7 @@ public class EnemyMaleZombie : MonoBehaviour
     {
         if (isTransformed)
         {
-            transform.position = myPlayer.transform.position - new Vector3(-1.5f, 0, 0);
+            transform.position = myPlayer.transform.position - new Vector3(1.5f, 0, 0);
             return; // Return to prevent other update actions
         }
 
